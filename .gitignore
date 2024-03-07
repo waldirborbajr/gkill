@@ -21,7 +21,7 @@
 go.work
 
 # binary
-glink
+gkill
 
 dist/
 .DS_Store
@@ -29,4 +29,3 @@ dist/
 **bin/
 **testarea/
 **tmp/
-
