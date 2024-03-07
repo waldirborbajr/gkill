@@ -3,11 +3,11 @@ help: ## 💬 This help message :)
 
 build-dev: ## 🔨 Build development binaries for Linux
 	go mod tidy
-	GOOS=linux go build -o bin/gkill -debug-trace=tmp/trace.json main.go
+	GOOS=linux go build -tags dev -o bin/gkill -debug-trace=tmp/trace.json main.go
 
 build: ## 🔨 Build binaries for Linux
 	go mod tidy
-	GOOS=linux go build -o bin/gkill -ldflags="-s -w" main.go
+	GOOS=linux go build -tags prod -o bin/gkill -ldflags="-s -w" main.go
 
 clean: ## ♻️  Clean up
 	@rm -rf bin
