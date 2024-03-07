@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img width="256" height="256" src="./assets/gkill-logo.png" />
+  <img width="256" height="256" src="./.assets/gkill-logo.png" />
 </p>
 
 <h1 align="center">gkill - GOLang Kill Process</h1>
